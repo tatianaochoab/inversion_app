@@ -1,0 +1,118 @@
+.container_header {
+    .info_phone {
+        padding: 14px 21px 0 21px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 15px;
+        color: #26232c;
+        .icons_phone {
+            width: 60px;
+            display: flex;
+            justify-content: space-evenly;
+        }
+    }
+    .info_name {
+        padding: 0 24px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 24.51px;
+        h2 {
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 24.51px;
+            color: #58506b;
+        }
+        .icon_bell {
+            color: #54d1ed;
+        }
+    }
+    .info_content {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        margin-top: 40px;
+        color: #fff;
+        .card_blue {
+            width: 327px;
+            height: 230px;
+            border-radius: 20px;
+            background: linear-gradient(180deg, rgba(44, 82, 216, 0) 0%, rgba(44, 82, 216, 0.4) 100%), #54d1ed;
+            background-blend-mode: multiply, normal;
+            display: flex;
+            flex-flow: column;
+            justify-content: space-between;
+            .title_card {
+                display: flex;
+                justify-content: space-between;
+                height: 50px;
+                h2 {
+                    width: 112px;
+                    margin: 0;
+                    padding: 30px 0 0 25px;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 25px;
+                }
+                .container_img1 {
+                    position: relative;
+                    width: 170px;
+                    height: 180px;
+                    right: 10px;
+                    top: -30px;
+                }
+            }
+            .valuetotal_card {
+                display: flex;
+                flex-flow: column;
+                align-items: flex-start;
+                align-content: center;
+                margin: 0;
+                padding: 0 0 20px 20px;
+                .saldo {
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 21px;
+                }
+                .saldo_number {
+                    margin: 0;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 36px;
+                    line-height: 49px;
+                }
+            }
+        }
+        .card_values {
+            box-sizing: border-box;
+            margin-top: 20px;
+            width: 327px;
+            height: 102px;
+            border-radius: 20px;
+            background: #fff;
+            color: #58506b;
+            padding: 20px 21px;
+            .values_content {
+                display: flex;
+                justify-content: space-between;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 21px;
+                .inversion {
+                    margin: 0 0 10px 0;
+                }
+                .rendimiento {
+                    margin: 10px 0 0 0;
+                }
+                .value_number {
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}

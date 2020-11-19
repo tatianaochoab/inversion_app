@@ -1,0 +1,99 @@
+.container_ahorro {
+    .title_ahorro {
+        padding: 40px 24px 24px 20px;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 24.51px;
+        h2 {
+            margin: 0;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 24.51px;
+            color: #58506b;
+        }
+    }
+    .content_ahorro {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        color: #58606b;
+        padding: 0 24px;
+        .corousel_ahorro {
+            box-shadow: 0px 8px 20px rgba(197, 166, 236, 0.05);
+            display: flex;
+            flex-flow: column;
+            justify-content: space-between;
+            .container_img4 {
+                text-align: center;
+                height: 290px;
+                img {
+                    width: 327px;
+                    height: 290px;
+                }
+            }
+            .dots_icon {
+                color: #d7c7ff;
+                padding: 14px 0 0 14px;
+                .dot_icon_color {
+                    color: #54d1ed;
+                }
+            }
+        }
+        .info_ahorro {
+            box-sizing: border-box;
+            width: 327px;
+            height: 304px;
+            left: 24px;
+            top: 1497px;
+            background: #ffffff;
+            box-shadow: 0px 8px 20px rgba(197, 166, 236, 0.05);
+            border-radius: 20px;
+            padding: 20px 20px 5px 20px;
+            margin-top: 25px;
+            color: #817699;
+            .info_ahorro_description {
+                display: flex;
+                justify-content: space-between;
+                .text {
+                    width: 202px;
+                    padding-bottom: 15px;
+                    .text1 {
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 21px;
+                        margin: 0 0 5px 0;
+                    }
+                    .text2 {
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 10px;
+                        line-height: 14px;
+                        letter-spacing: -0.03em;
+                        margin: 0 0 15px 0;
+                    }
+                }
+                .text_end {
+                    width: 202px;
+                    padding-bottom: 0;
+                    .text1 {
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 21px;
+                        margin: 0 0 5px 0;
+                    }
+                    .text2 {
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 10px;
+                        line-height: 14px;
+                        letter-spacing: -0.03em;
+                        margin: 0 0 15px 0;
+                    }
+                }
+            }
+        }
+    }
+}
